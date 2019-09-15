@@ -80,9 +80,9 @@ namespace EntityFramework1
 
                 //var studentSam = schoolDbContext.Students.Find(3);
                 //var studentSam = schoolDbContext.Students.SingleOrDefault(s=>s.Name.Equals("Sam"));
-                var studentSam = schoolDbContext.Students.Single(s => s.Studnr==1003);
-                studentSam.Name = "Samuel";
-                schoolDbContext.SaveChanges();
+                //var studentSam = schoolDbContext.Students.Single(s => s.Studnr==1003);
+                //studentSam.Name = "Samuel";
+                //schoolDbContext.SaveChanges();
             }
 
             Console.WriteLine("Finished!");
